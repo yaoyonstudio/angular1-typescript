@@ -1,0 +1,13 @@
+<div class="main">
+    <my-header></my-header>
+    <div class="main_content">
+        <button ng-click="pc.load()">Load Data</button>
+        <div class="posts">
+            <input type="text" ng-model="pc.keyword" ng-if="pc.data.length" />
+            <p ng-show="pc.loading">loading...</p>
+            <ul ng-if="pc.data.length">
+                <li ng-repeat="item in pc.data | filter: {title: pc.keyword}">{{item.title}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

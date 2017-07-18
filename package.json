@@ -1,0 +1,35 @@
+{
+  "name": "typescript_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "set NODE_ENV=production&&webpack",
+    "dev": "set NODE_ENV=development&&webpack-dev-server"
+  },
+  "author": "ken",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/angular": "^1.6.26",
+    "@types/extract-text-webpack-plugin": "^2.1.0",
+    "@types/node": "^8.0.13",
+    "@types/webpack": "^3.0.4",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.3.0",
+    "ts-node": "^3.2.0",
+    "tslint": "^5.5.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.4.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.5",
+    "angular": "^1.6.5"
+  }
+}
